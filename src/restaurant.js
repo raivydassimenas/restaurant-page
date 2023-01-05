@@ -18,7 +18,7 @@ const loadRestaurantTab = function () {
   restaurantDiv.appendChild(image);
   restaurantDiv.appendChild(text);
 
-  restaurantDiv.classList.add("contentItem");
+  restaurantDiv.classList.add("tab");
 
   return restaurantDiv;
 };

@@ -50,7 +50,7 @@ const loadMenuTab = function() {
 
     menuDiv.appendChild(nigiri);
 
-    menuDiv.classList.add("containerItem");
+    menuDiv.classList.add("tab");
 
     return menuDiv;
 };
