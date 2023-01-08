@@ -1,4 +1,5 @@
 import restaurantImage from './restaurant.jpeg';
+import './styles.css'
 
 const loadRestaurantTab = function () {
   const restaurantDiv = document.createElement("div");
