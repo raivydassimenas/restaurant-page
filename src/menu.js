@@ -1,5 +1,6 @@
 import sushiImageUnsplash from './vinicius-benedit-sushi-unsplash.jpg';
 import nigiriImageUnsplash from './crystal-jo-nigiri-unsplash.jpg';
+import "./styles.css";
 
 const loadMenuTab = function() {
     const menuDiv = document.createElement('div');
@@ -23,7 +24,7 @@ const loadMenuTab = function() {
     sushiImageCopyright.innerHTML = 'Photo by <a href="https://unsplash.com/@viniciusbenedit?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vinicius Benedit</a> on <a href="https://unsplash.com/s/photos/sushi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>';
     sushi.appendChild(sushiImageCopyright);
 
-    sushi.classList.add("menuItem");
+    sushi.classList.add("menu-item");
 
     menuDiv.appendChild(sushi);
 
@@ -46,7 +47,7 @@ const loadMenuTab = function() {
     nigiriImageCopyright.innerHTML = 'Photo by <a href="https://unsplash.com/@crystalsjo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Crystal Jo</a> on <a href="https://unsplash.com/s/photos/nigiri?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>';
     nigiri.appendChild(nigiriImageCopyright);
 
-    nigiri.classList.add("menuItem");
+    nigiri.classList.add("menu-item");
 
     menuDiv.appendChild(nigiri);
 

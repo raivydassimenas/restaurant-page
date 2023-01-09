@@ -1,3 +1,5 @@
+import "./styles.css";
+
 const loadContactTab = function () {
     const contactDiv = document.createElement('div');
 

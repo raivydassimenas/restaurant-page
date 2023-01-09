@@ -7,4 +7,4 @@ const restaurantDiv = loadRestaurantTab();
 const menuDiv = loadMenuTab();
 const contactDiv = loadContactTab();
 
-contentDiv.append(restaurantDiv);
+contentDiv.append(contactDiv);
